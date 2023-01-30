@@ -31,7 +31,12 @@ const capabilities = {
       'name': 'Taiko sample test',
       'user': process.env.LT_USERNAME,
       'accessKey': process.env.LT_ACCESSKEY,
-      'network': true
+      'network': true,
+      'video': true,
+      'console': true,
+      'tunnel': false, // Add tunnel configuration if testing locally hosted webpage
+      'tunnelName': '', // Optional
+      'geoLocation': '', // country code can be fetched from https://www.lambdatest.com/capabilities-generator/
     }
   }
 
