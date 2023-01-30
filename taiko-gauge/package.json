@@ -8,6 +8,6 @@
     "taiko": "latest"
   },
   "devDependencies": {
-    "taiko-lambdatest": "^1.0.1"
+    "taiko-lambdatest": "^1.0.2"
   }
 }
