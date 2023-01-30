@@ -4,8 +4,6 @@
 - Node should be installed
 - Clone the repo using `git clone git@github.com:LambdaTest/lambdatest-taiko-sample.git`
 - Move to taiko-gauge folder using `cd lambdatest-taiko-sample/taiko-gauge`
-- Install taiko globally using `npm install -g taiko`
-- Install gauge cli globally using `npm install -g @getgauge/cli`
 - Install dependencies using `npm install`
 
 ## Running the tests
