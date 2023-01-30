@@ -27,22 +27,21 @@ const capabilities = {
     'browserVersion': 'latest',
     'LT:Options': {
       'platform': 'Windows 10',
-      'build': 'taiko sample build',
-      'name': 'taiko sample test',
+      'build': 'Taiko sample build',
+      'name': 'Taiko sample test',
       'user': process.env.LT_USERNAME,
       'accessKey': process.env.LT_ACCESSKEY,
       'network': true
     }
   }
 
-  beforeSuite(async () => {
+beforeScenario(async () => {
     await openBrowser({
-      target: `wss://cdp.lambdatest.com/taiko?capabilities=${encodeURIComponent(JSON.stringify(capabilities))}`,
-      headless: false
+      target: `wss://cdp.lambdatest.com/taiko?capabilities=${encodeURIComponent(JSON.stringify(capabilities))}`
     }, capabilities); // Opens the browser on a remote machine
   });
 
-afterSuite(async (context) => {
+afterScenario(async (context) => {
     await closeBrowser(context);
 });
 
