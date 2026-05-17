@@ -2,6 +2,7 @@
 
 <p align="center">
   <a href="https://www.testmuai.com/"><img src="https://img.shields.io/badge/MADE%20BY%20TestMu%20AI-000000.svg?style=for-the-badge&labelColor=000" alt="Made by TestMu AI"></a>
+  <a href="https://www.npmjs.com/package/taiko"><img src="https://img.shields.io/npm/v/taiko.svg?style=for-the-badge&labelColor=000000" alt="Taiko version"></a>
   <a href="https://community.testmuai.com/"><img src="https://img.shields.io/badge/Join%20the%20community-blueviolet.svg?style=for-the-badge&labelColor=000000" alt="Community"></a>
 </p>
 
@@ -12,23 +13,64 @@
 With TestMu AI (Formerly LambdaTest), you can run Taiko tests across real browsers and operating systems.
 
 - [Sign up on TestMu AI](https://www.testmuai.com/register/) (Formerly LambdaTest).
-- Follow the [TestMu AI Documentation](https://www.testmuai.com/support/docs/) for the full setup walkthrough.
+- Follow the [TestMu AI documentation](https://www.testmuai.com/support/docs/) (Formerly LambdaTest) for the full setup walkthrough.
 
-## Pre-requisite
-- Node should be installed
-- Clone the repo using `git clone git@github.com:LambdaTest/lambdatest-taiko-sample.git`
-- Move to taiko-gauge folder using `cd lambdatest-taiko-sample/taiko-gauge`
-- Install dependencies using `npm install`
+### Prerequisites
 
-## Running the tests
-- Set username and accessKey using below commands
-    - For MacOS/Linux
-        `export LT_USERNAME=<user_name>`
-        `export LT_ACCESSKEY=<access_key>`
-    - For Windows
-        `set LT_USERNAME=<user_name>`
-        `set LT_ACCESSKEY=<access_key>`
-- To run tests use command `npm test`
+- [Node.js](https://nodejs.org/) installed
+
+### Setup
+
+```bash
+git clone https://github.com/LambdaTest/lambdatest-taiko-sample.git
+cd lambdatest-taiko-sample/taiko-gauge
+npm install
+```
+
+Set your credentials as environment variables.
+
+**macOS / Linux:**
+
+```bash
+export LT_USERNAME="YOUR_USERNAME"
+export LT_ACCESS_KEY="YOUR_ACCESS_KEY"
+```
+
+**Windows:**
+
+```bash
+set LT_USERNAME="YOUR_USERNAME"
+set LT_ACCESS_KEY="YOUR_ACCESS_KEY"
+```
+
+### Run tests
+
+```bash
+npm test
+```
+
+View results on your TestMu AI dashboard.
+
+## Contributions
+
+Contributions are welcome. Open an issue to discuss your idea before submitting a pull request. When reporting bugs, include your Node.js version, OS, and Taiko version.
+
+## TestMu AI (Formerly LambdaTest) Community
+
+Connect with testers and developers in the [TestMu AI Community](https://community.testmuai.com/). Ask questions, share what you are building, and discuss best practices in test automation and DevOps.
+
+## TestMu AI (Formerly LambdaTest) Certifications
+
+Earn free [TestMu AI Certifications](https://www.testmuai.com/certifications/) for testers, developers, and QA engineers. Validate your skills in Selenium, Cypress, Playwright, Appium, Espresso and more. Industry-recognized, shareable on LinkedIn, and built by practitioners, not marketers.
+
+## Learning Resources by TestMu AI (Formerly LambdaTest)
+
+Learn modern testing through tutorials, guides, videos, and weekly updates:
+
+* [TestMu AI Blog](https://www.testmuai.com/blog/)
+* [TestMu AI Learning Hub](https://www.testmuai.com/learning-hub/)
+* [TestMu AI on YouTube](https://www.youtube.com/@TestMuAI)
+* [TestMu AI Newsletter](https://www.testmuai.com/newsletter/)
 
 ## LambdaTest is Now TestMu AI
 
@@ -36,7 +78,7 @@ On **January 12, 2026**, [LambdaTest evolved to TestMu AI](https://www.testmuai.
 
 Same team. Same infrastructure. Same customer accounts. All existing LambdaTest logins, scripts, capabilities, and integrations continue to work without change.
 
-ð Find the new home for [LambdaTest](https://www.testmuai.com).
+👉 Find the new home for [LambdaTest](https://www.testmuai.com).
 
 ### How LambdaTest Evolved into TestMu AI
 
